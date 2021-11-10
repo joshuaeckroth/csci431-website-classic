@@ -164,7 +164,7 @@ as A\*.
 
 ## Theoretical comparison
 
-Refer to the [search notes](/notes/search.html) (at the bottom) for an
+Refer to the [search notes](../notes/search.html) (at the bottom) for an
 explanation of the variables $n$ (total possible states), $b$ (branch
 factor), $d$ (search depth of least-cost solution), and $m$ (maximum
 search depth, which may be $\infty$).
@@ -202,7 +202,7 @@ performance characteristics in some of the graphs after 4 moves.
 
 ### Number of checked states (time)
 
-![States checked](/images/8puzzle-search-checked.png)
+![States checked](../images/8puzzle-search-checked.png)
 
 We use "number of checked states" as a proxy for computational
 time. Random is obviously quite bad. Interesting, IDDFS is also bad;
@@ -215,14 +215,14 @@ efficient."
 
 ### Maximum number of states in memory
 
-![States in memory](/images/8puzzle-search-memory.png)
+![States in memory](../images/8puzzle-search-memory.png)
 
 "Memory" is measured as the maximum size ever encountered of the
 `openset`. BFS uses a lot of memory because it adds all possible transitions from a level of the search tree before proceeding to the next level and visiting those new states.
 
 ### Length of path (goodness of solutions)
 
-![Search path](/images/8puzzle-search-path.png)
+![Search path](../images/8puzzle-search-path.png)
 
 We learned that A\* is optimal (with respect to the path cost of the
 solution). Breadth-first search is also optimal since we have a graph

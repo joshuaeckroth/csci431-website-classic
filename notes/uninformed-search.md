@@ -9,7 +9,7 @@ A search strategy is either "informed" or "uninformed." Uninformed search is a s
 
 ## Overview
 
-We learned in the [Search](/notes/search.html) lecture notes that search
+We learned in the [Search](../notes/search.html) lecture notes that search
 problems have the following components: a starting state, possible
 transitions that describes how actions change one
 state to another, a goal criteria, and a way of calculating the cost
@@ -21,7 +21,7 @@ as a directed graph (vertices are states, edges are actions).
 For example, consider the 8-puzzle game, which requires that tokens
 are shifted around until a particular goal state is reached.
 
-![8-puzzle](/images/8puzzle-simple.png)
+![8-puzzle](../images/8puzzle-simple.png)
 
 Each "state" is a configuration of the puzzle. Each state can be
 followed by at most four other states, resulting from moving a
@@ -114,7 +114,7 @@ CODEBASE="http://active.macromedia.com/flash5/cabs/swflash.cab#version=5,0,0,0">
 PLUGINSPAGE="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"> 
 </OBJECT>
 <br/>
-<a href="/images/8puzzle-bfs.png">View final image</a>
+<a href="../images/8puzzle-bfs.png">View final image</a>
 </div>
 
 ## Depth-first search
@@ -172,7 +172,7 @@ is very "deep," such as in mazes.
 
 ## Comparison of uninformed search algorithms
 
-Refer to the [search notes](/notes/search.html) (at the bottom) for an
+Refer to the [search notes](../notes/search.html) (at the bottom) for an
 explanation of the variables $n$ (total possible states), $b$
 (branch factor), and $d$ (search depth of least-cost solution).
 

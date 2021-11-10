@@ -168,7 +168,7 @@ PLUGINSPAGE="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Vers
 </EMBED>
 </OBJECT>
 <br/>
-<a href="/images/ttt-minimax-example.png">View final image</a>
+<a href="../images/ttt-minimax-example.png">View final image</a>
 </div>
 
 ## Alpha-beta pruning
@@ -259,9 +259,9 @@ does not produce different answers than minimax. Alpha-beta pruning
 simply does not bother checking subtrees when it is certain those
 subtrees will not change the answer produced by minimax.
 
-Check out the [final search graph](/images/ttt-alphabeta-example.png) of another tic-tac-toe example, this
+Check out the [final search graph](../images/ttt-alphabeta-example.png) of another tic-tac-toe example, this
 time with alpha-beta pruning. For comparison, [this is the search graph
-without alpha-beta pruning](/images/ttt-minimax-example-2.png).
+without alpha-beta pruning](../images/ttt-minimax-example-2.png).
 
 Alpha-beta pruning performs *much* better than vanilla minimax:
 
@@ -279,10 +279,10 @@ Tic-tac-toe is such a simple game that minimax and alpha-beta pruning
 are not really necessary. Apparently, here is optimal play (from
 [xkcd](http://xkcd.com/832/)):
 
-![Optimal tic-tac-toe](/images/xkcd-tic_tac_toe.png)
+![Optimal tic-tac-toe](../images/xkcd-tic_tac_toe.png)
 
 
 This is also instructive (from [xkcd](http://xkcd.com/1002/)):
 
-![xkcd](/images/xkcd-game_ais.png)
+![xkcd](../images/xkcd-game_ais.png)
 
